@@ -120,7 +120,7 @@ $(document).ready(function () {
     }
     //FUNCTION FOR MAKE SOUND
     function mkSound(currentColour) {
-        var audio = new Audio("/sounds/" + currentColour + ".mp3");
+        var audio = new Audio("currentColour + ".mp3");
         audio.play();
     }
 
